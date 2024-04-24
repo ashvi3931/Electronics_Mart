@@ -424,23 +424,23 @@ include('../com_func.php');
 <nav class="app-pagination mt-5">
                     <ul class="pagination justify-content-center">
 <?php
- $sel1="select * from `user`";
+ $sel1="select * from `feedback`";
  $res1=mysqli_query($con,$sel1);
  $total_records = mysqli_num_rows($res1);
  $total_pages=ceil($total_records/$num_per_page);
  
 if($page>1)
 {
-    echo "<a href='list_users.php?page=".($page-1)."' class='btn btn-outline-dark'>Previous</a>";
+    echo "<a href='feedback.php?page=".($page-1)."' class='btn btn-outline-dark'>Previous</a>";
     
 }
  for($i=1;$i<$total_pages;$i++)
  {
-    echo "<a href='list_users.php?page=".$i."' class='btn btn-outline-dark'>".$i."</a>";
+    echo "<a href='feedback.php?page=".$i."' class='btn btn-outline-dark'>".$i."</a>";
  }
  if($i>$page)
 {
-    echo "<a href='list_users.php?page=".($page+1)."' class='btn btn-outline-dark'>Next</a>";
+    echo "<a href='feedback.php?page=".($page+1)."' class='btn btn-outline-dark'>Next</a>";
     
 }
 

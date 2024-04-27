@@ -1,5 +1,4 @@
 # Appliances-Mart
-Introduction
 Developed an ecommerce platform for an
 enterprise, overseeing database maintenance
 and ensuring seamless feature integration using HTML, CSS, JavaScript, PHP, and MySQL,

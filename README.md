@@ -7,8 +7,8 @@ shopping experience.
 
 ## Prerequisites
 * xampp
-phpmyadmin
-A compatible IDE (e.g.Visual Studio Code)
+* phpmyadmin
+* A compatible IDE (e.g.Visual Studio Code)
 
 ## Setting Up Xampp Environment
 To set up a XAMPP environment, first download the latest version from the Apache Friends website and install it on your system. Once installed, launch the XAMPP Control Panel and start the Apache and MySQL services. Configure any necessary settings through the Control Panel or by editing the configuration files. Finally, create your web files and place them in the 'htdocs' directory within the XAMPP installation directory to start developing and testing your web applications locally.

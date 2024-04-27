@@ -6,7 +6,7 @@ providing customers with a user-friendly
 shopping experience.
 
 ## Prerequisites
-**xampp
+* xampp
 phpmyadmin
 A compatible IDE (e.g.Visual Studio Code)
 
